@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <h1>Forms da Flamingo</h1>
+
+    <form>
+        <fieldset>
+            <legend>Dados Cadastrais</legend>
+
+        <!-- input adicionar uma barra para digitalização colocando o "type" você escolhe qual tipo de digitação será feita; Placeholder é uma marca D'água que mostra como você deseja que seja preenchido essa barra se é um nome, senha, número e etc. Label serve para colocarmos uma direção de onde será selecionada nossos caracteres por ex. {Label for=nome>} define qual será nosso input desejado, fazendo com que seja direcionado somente a ele; Na sequência voce coloca onde deseja por ex. {Nome:</label>}; Faz com que seja direcionado ao input denominado nome!  -->
+        <label for=nome>Nome:</label>
+         <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+        <label for="number">Número:</label>
+        <input type="number" id="number" placeholder="Digite sua idade" required>
+
+         <label for="Email">Email:</label>
+         <input type="email" id="Email" placeholder="digite seu email" required>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" placeholder="Digite sua senha" required>
+
+        <input type="submit" value="Send Forms">
+        </fieldset>
+        
+    </form>    
+
+</body>
+</html>
