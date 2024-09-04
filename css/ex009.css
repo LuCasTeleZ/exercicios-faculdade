@@ -1,0 +1,18 @@
+p{
+    color: gold;/* altera a cor da fonte */
+    text-align: center;/* altera a posição do texto */
+    font-size: 36px; /* altera o tamanho da fonte */
+    background-color: gray; /* cor de fundo */
+    border-radius: 30px; /* altera as bordas do fundo do texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* altera a letra do texto */
+    font-weight: bold; /* altera o peso da fonte em resumo deixa negrito */
+    
+}  
+/* # é utilizado somente para ID */
+#dupladinamica {
+    color: chartreuse;
+}
+/* (.) é utilizado somente para class*/
+.texto {
+    color: deeppink;
+}

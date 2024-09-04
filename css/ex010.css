@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: violet; /* cor de fundo */
+    border: slategray 3px solid;
+    padding: 10px;/* espaçamento interno */
+    margin: 70px;/* espaçamento externo */
+    box-sizing: content-box;
+    
+}
+
+p{
+    color: aquamarine;
+}
