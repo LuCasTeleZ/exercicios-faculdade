@@ -1,0 +1,34 @@
+.pai {
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    padding: 10px;
+    margin: 50px;
+    border: 3px black solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.filho {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(114, 68, 7);
+    padding: 10px;
+    margin: 50px;
+    border: 3px black solid;
+    box-sizing: border-box;
+}
+
+.filho2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(184, 31, 4);
+    padding: 10px;
+    margin: 50px;
+    border: 3px black solid;
+    box-sizing: border-box;
+}
+
